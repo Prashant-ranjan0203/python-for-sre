@@ -23,3 +23,6 @@ try:
 except TypeError as e:
     print(f"Error:{e}")
 
+# Tuple unpacking
+a, b  = my_tuple
+print(f"Unpacked values: {a}, {b}, {c}")
