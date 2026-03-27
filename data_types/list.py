@@ -16,8 +16,14 @@ print(f"Every 2nd element from index 1: {my_list[1::2]}")
 my_list[0] = 100 #Lists are mutable → you can change values
 print(f"New list : {my_list}")
 
-## Appened elements
+## Appened elements, append() → add at end
 my_list.append(50)
 print(f"After append : {my_list}")
 
+## Insert elements , insert() → add at specific position
+my_list.insert(1, 60)
+print(f"Afer insert: {my_list}")
 
+## Extend elements , add multiple elements
+my_list.extend([80, 90])
+print(f"After extend: {my_list}")
