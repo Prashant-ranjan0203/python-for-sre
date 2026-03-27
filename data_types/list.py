@@ -40,3 +40,18 @@ print(f"After pop: {my_list}")
 ## Delete index 
 del my_list [2]
 print(f"After delete: {my_list}")
+
+
+## sorting , modifies the original list (in-place)
+my_list.sort()
+print(my_list)
+
+## Descending order
+
+my_list.sort(reverse=True)
+print(f"sorted list in reverse order:{my_list}")
+
+## sorted , it keep intacts origional list and create new sorted list 
+new_list = sorted(my_list)
+print(f"Original: {my_list}")
+print(f"Sorted: {new_list}")
