@@ -27,3 +27,16 @@ print(f"Afer insert: {my_list}")
 ## Extend elements , add multiple elements
 my_list.extend([80, 90])
 print(f"After extend: {my_list}")
+
+## Remove elements,remove() → remove by value
+###Note --> it removes the first occurence of element 
+my_list.remove(20)
+print(f"After remove: {my_list}")
+
+## pop() → remove by index
+my_list.pop(0)
+print(f"After pop: {my_list}")
+
+## Delete index 
+del my_list [2]
+print(f"After delete: {my_list}")
