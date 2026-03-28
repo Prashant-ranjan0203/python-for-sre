@@ -5,4 +5,10 @@ server = {
     "status": "active"
 }
 
-print(f"server: {server}")
+print(f"server details: {server}")
+
+##Access values
+print(f"Name: {server['name']}")
+print(f"IP: {server['ip']}")
+print(f"Status: {server.get('status')}")
+print(f"Location: {server.get('location', 'Not found')}")
