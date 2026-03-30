@@ -25,3 +25,14 @@ common_servers = prod_servers & staging_servers
 
 print("\nCommon servers in both environments:")
 print(common_servers)
+
+
+ #Notes 
+# Union (all unique)
+a | b
+
+# Intersection (common items)
+#a & b
+
+# Difference (what's in a but not in b)
+a - b
