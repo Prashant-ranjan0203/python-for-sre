@@ -210,3 +210,8 @@ data = {
     "servers": ["app1", "app2"],
     "config": {"cpu": 2}
 }
+
+
+a = 5  
+b = 5  
+print(id(a) == id(b))

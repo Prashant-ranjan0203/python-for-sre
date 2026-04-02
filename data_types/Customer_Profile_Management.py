@@ -46,3 +46,5 @@ customer["address"] = "221B Baker Street"
 
 # Step 13: Final dictionary
 print("\nFinal customer data:", customer)
+
+id(customer)
